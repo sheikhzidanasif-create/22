@@ -1,0 +1,8 @@
+import pickle
+
+
+data = {"model_name": "Car Purchase Model", "accuracy": 0.92}
+
+
+with open("model.pkl", "wb") as file:
+    pickle.dump(data, file)
